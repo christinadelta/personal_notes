@@ -29,3 +29,18 @@ Run **config_io** from the MATLAB command window.  If there's no error message a
 ### Step 8:
 <span style="text-decoration: underline">Optional</span>: If you need to re-enable UAC (User Account Control), follow the instructions in step-2 but select "Enable UAC" instead of "Disable UAC".
 
+### Step 9:
+ Test the status of a single input line using the bitget() function:
+ 
+ ```
+% Read current value of an input port at the specified address.
+% Note that the value returned by inp(address) is coerced into an 8-bit format using uint8.
+
+response = uint8(inp(address));
+
+% Take some action if the least-significant-bit is currently at logical-0 level
+if (bitget(response,1) == 0)
+   display('Input is active')
+end
+
+```
