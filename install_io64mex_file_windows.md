@@ -12,10 +12,10 @@ Disable UAC (User Account Control).  An easy way to do this in Windows Vista is 
 I am not sure if this step is needed. Will take a look at it.
 
 ### Step 3:
-Download and copy the [inpoutx64.dll](http://apps.usd.edu/coglab/psyc770/IO64.html) file to the C:\WINDOWS\SYSTEM32 directory.
+Download and copy the [inpoutx64.dll](https://github.com/christinadelta/personal_notes/tree/main/parallel_port) file to the C:\WINDOWS\SYSTEM32 directory.
 
 ### Step 4:
-Download the [io64.mexw64, config_io.m, inp.m and outp.m](http://apps.usd.edu/coglab/psyc770/IO64.html) files to a working directory of your choice. This directory will be added to your MATLAB path in step-6 below.
+Download the [io64.mexw64, config_io.m, inp.m and outp.m](https://github.com/christinadelta/personal_notes/tree/main/parallel_port) files to a working directory of your choice. This directory will be added to your MATLAB path in step-6 below.
 
 ### Step 5:
 Start MATLAB in ***Run as Administrator*** mode (Right-click icon and select "Run as Administrator").
