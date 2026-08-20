@@ -1,7 +1,7 @@
 ## Install Mex-File Plug-in for Fast MATLAB Port I/O
 
 
-These steps will probably work only on windows (if they wotk).
+These steps will probably work only on windows.
 
 ### Step 1:
 Log in as a user with Administrator rights.
